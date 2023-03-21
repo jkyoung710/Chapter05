@@ -22,9 +22,9 @@ namespace EXAMPLE1
 
             }
 
-            for (int a = 0; a < 5; a++)
+            for (int i = 5; 1 <= i; i--)
             {
-                for (int b = 0; b <= a; b++)
+                for (int j = 0; j < i; j++)
                 {
                     Console.Write("*");
                 }
@@ -32,6 +32,50 @@ namespace EXAMPLE1
                 Console.WriteLine();
 
             }
+
+
+            
+            Console.Write("정수를 입력하세요 : ");
+
+            
+            string input = Console.ReadLine();
+            int number = Convert.ToInt32(input);
+            // int c = number - 1;
+
+            for (int a = 1; a <= number; a++)
+            {
+                for (int b = 1; b <= a; b++)
+                {
+                    
+                    Console.Write("*");
+                }
+
+                Console.WriteLine();
+
+            }
+
+            Console.Write("정수를 입력하세요 : ");
+
+
+            string input1 = Console.ReadLine();
+            int number1= Convert.ToInt32(input1);
+           
+
+            for (int a = number1; 1 <= a; a--)
+            {
+                for (int b = 1; b <= a; b++)
+                {
+
+                    Console.Write("*");
+                }
+
+                Console.WriteLine();
+
+            }
+
+
+
+
 
 
 

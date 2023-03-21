@@ -10,11 +10,20 @@ namespace For
     {
         static void Main(string[] args)
         {
+            
+
 
             for (int i = 0; i<5;i++)
             {
                 Console.WriteLine(i);
             }
+
+            int a = 3;
+            string b = "*";
+
+
+            Console.WriteLine(a);
+            Console.WriteLine(b);
 
 
         }
